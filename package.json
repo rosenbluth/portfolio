@@ -1,9 +1,10 @@
 {
-  "name": "agency",
-  "title": "Agency",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/agency",
-  "author": "Start Bootstrap",
+  "scripts": {
+    "start": "node agency.js",
+    "test": "mocha",
+    "postinstall": "bower install && grunt build"
+  },
+
   "license": {
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
@@ -19,10 +20,16 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3"
+    "jquery": "^1.11.3",
+    "author": "jrnjerin",
+    "license": "ISC",
+    "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.75.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
-  }
+  },
 }
