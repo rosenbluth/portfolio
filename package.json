@@ -6,9 +6,7 @@
   },
   "author": "Sam Rosenbluth",
   "license": "ISC",
-  "engines": {
-    "node": "8.6.0"
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rosenbluth/Sam.Rosenbluth.git"
@@ -26,7 +24,11 @@
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^1.5.4",
     "jquery": "^1.11.3",
-    "lru-cache": "2.7.0"
+    "lru-cache": "2.7.0",
+    "npm": "^5.3.0",
+    "engines": {
+      "node": "^8.6.0"
+    }
   },
   "name": "personalwebsite",
   "description": "Portfolio Website for Sam Rosenbluth. Using bootstrap theme.",
