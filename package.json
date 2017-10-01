@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "mocha",
-    "postinstall": "node node_modules/bower/bin/bower install",
+    "herkou-postbuild": "NPM_CONFIG_PRODUCTION=false npm install",
     "start": "node node_modules/grunt-cli/bin/grunt"
   },
   "author": "Sam Rosenbluth",
@@ -25,9 +25,9 @@
     "gulp-uglify": "^1.5.4",
     "jquery": "^1.11.3",
     "lru-cache": "2.7.0",
-    "npm": "^5.3.0",
     "engines": {
-      "node": "^8.6.0"
+      "node": "^8.6.0",
+      "npm":"^5.3.0"
     }
   },
   "name": "personalwebsite",
