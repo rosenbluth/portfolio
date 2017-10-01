@@ -4,7 +4,18 @@
     "postinstall": "node node_modules/bower/bin/bower install",
     "start": "node node_modules/grunt-cli/bin/grunt"
   },
+
+  "author": "Sam Rosenbluth",
+  "license": "",
+  "engines": {
+    "node": "8.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rosenbluth/Sam.Rosenbluth"
+  },
   "dependencies": {
+    "bower": "^1.8.2",
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
     "express": "^4.16.0",
@@ -17,17 +28,6 @@
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^1.5.4",
     "jquery": "^1.11.3"
-  },
-  "author": "Sam Rosenbluth",
-  "license": "",
-  "engines": {
-    "node": "8.6.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rosenbluth/Sam.Rosenbluth"
-  },
-  "dependencies": {
-    "bower": "^1.8.2"
   }
+
 }
