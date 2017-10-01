@@ -4,18 +4,16 @@
     "postinstall": "node node_modules/bower/bin/bower install",
     "start": "node node_modules/grunt-cli/bin/grunt"
   },
-
   "author": "Sam Rosenbluth",
-  "license": "",
+  "license": "ISC",
   "engines": {
     "node": "8.6.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rosenbluth/Sam.Rosenbluth"
+    "url": "git+https://github.com/rosenbluth/Sam.Rosenbluth.git"
   },
   "dependencies": {
-    "bower": "^1.8.2",
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
     "express": "^4.16.0",
@@ -27,7 +25,18 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3"
+    "jquery": "^1.11.3",
+    "lru-cache": "2.7.0"
+  },
+  "name": "personalwebsite",
+  "description": "Portfolio Website for Sam Rosenbluth. Using bootstrap theme.",
+  "bugs": {
+    "url": "https://github.com/rosenbluth/Sam.Rosenbluth/issues"
+  },
+  "homepage": "https://enigmatic-island-67372.herokuapp.com/",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "directories": {
+    "lib": "lib"
   }
-
 }
