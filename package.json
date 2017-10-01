@@ -40,5 +40,8 @@
   "main": "gulpfile.js",
   "directories": {
     "lib": "lib"
+  },
+  "devDependencies": {
+    "forever":"^0.15.3"
   }
 }
