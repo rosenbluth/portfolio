@@ -29,8 +29,8 @@
   "dependencies": {
     "grunt-cli": "^1.2.0",
     "engines": {
-    "node": "^8.6.0",
-    "npm": "^5.3.0"
+      "node": "^8.6.0",
+      "npm": "^5.3.0"
+    }
   }
-}
 }
