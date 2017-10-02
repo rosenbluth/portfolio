@@ -27,7 +27,7 @@
     "url": "https://github.com/rosenbluth/Sam.Rosenbluth.git"
   },
   "dependencies": {
-    "grunt-cli": "^1.2.0",
+    
     "engines": {
       "node": "^8.6.0",
       "npm": "^5.3.0"
