@@ -2,11 +2,11 @@
   "name": "agency",
   "title": "Agency",
   "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/agency",
+  "homepage": "https://enigmatic-island-67372.herokuapp.com/",
   "author": "Start Bootstrap",
   "license": {
     "type": "MIT",
-    "url": "https://enigmatic-island-67372.herokuapp.com/"
+    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
