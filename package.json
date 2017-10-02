@@ -1,20 +1,16 @@
 {
-  "scripts": {
-    "test": "mocha",
-    "herkou-postbuild": "NPM_CONFIG_PRODUCTION=false npm install",
-    "start": "node node_modules/grunt-cli/bin/grunt"
+  "name": "agency",
+  "title": "Agency",
+  "version": "3.3.7+1",
+  "homepage": "http://startbootstrap.com/template-overviews/agency",
+  "author": "Start Bootstrap",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
   },
-  "author": "Sam Rosenbluth",
-  "license": "ISC",
-
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rosenbluth/Sam.Rosenbluth.git"
-  },
-  "dependencies": {
+  "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
-    "express": "^4.16.0",
     "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.10",
@@ -23,25 +19,10 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3",
-    "lru-cache": "2.7.0",
-    "engines": {
-      "node": "^8.6.0",
-      "npm":"^5.3.0"
-    }
+    "jquery": "^1.11.3"
   },
-  "name": "personalwebsite",
-  "description": "Portfolio Website for Sam Rosenbluth. Using bootstrap theme.",
-  "bugs": {
-    "url": "https://github.com/rosenbluth/Sam.Rosenbluth/issues"
-  },
-  "homepage": "https://enigmatic-island-67372.herokuapp.com/",
-  "version": "1.0.0",
-  "main": "gulpfile.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "devDependencies": {
-    "forever":"^0.15.3"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rosenbluth/Sam.Rosenbluth.git"
   }
 }
